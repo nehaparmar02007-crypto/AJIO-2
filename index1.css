@@ -1,0 +1,61 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background: #fffaf0;
+}
+
+
+h1 {
+color: navy;
+}
+
+
+/* FLAG */
+.flag {
+width: 300px;
+margin: 20px auto;
+border: 1px solid #ccc;
+}
+
+
+.orange {
+height: 60px;
+background: orange;
+}
+
+
+.white {
+height: 60px;
+background: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.green {
+height: 60px;
+background: green;
+}
+
+
+.chakra {
+width: 40px;
+height: 40px;
+border: 2px solid navy;
+border-radius: 50%;
+animation: spin 4s linear infinite;
+}
+
+
+@keyframes spin {
+from { transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+}
+
+
+/* MAP */
+.map {
+width: 200px;
+margin: 15px 0;
+}
