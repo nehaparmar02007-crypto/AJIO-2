@@ -58,4 +58,16 @@ to { transform: rotate(360deg); }
 .map {
 width: 200px;
 margin: 15px 0;
+
+}
+
+.flag {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+
+    position: fixed;   /* FIXED PROPERTY */
+    top: 80px;         /* upar thi distance */
+    left: 50%;
+    transform: translateX(-50%);
 }
