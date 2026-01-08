@@ -6,6 +6,7 @@ background: #fffaf0;
 
 
 h1 {
+    position:fixed;
 color: navy;
 }
 
@@ -70,3 +71,4 @@ h1 {
     background: #fffaf0;
     padding: 10px 0;
 }
+
