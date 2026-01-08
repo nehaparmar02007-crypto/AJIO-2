@@ -60,14 +60,13 @@ width: 200px;
 margin: 15px 0;
 
 }
+h1 {
+    color: navy;
 
-.flag {
-    width: 300px;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-
-    position: fixed;   /* FIXED PROPERTY */
-    top: 80px;         /* upar thi distance */
-    left: 50%;
-    transform: translateX(-50%);
+    position: fixed;   /* FIXED */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fffaf0;
+    padding: 10px 0;
 }
